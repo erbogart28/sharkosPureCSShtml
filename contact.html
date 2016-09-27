@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/CSS" href="CSS/styles2.css">
+
+  <meta name="viewport" content="initial-scale=1.5, user-scalable=no">
+  <meta charset="utf-8">
+  <script src="https://maps.googleapis.com/maps/api/js?AIzaSyA0mAgYX2vcrjdPDrv-vh118fe3yJO_NNE&callback=initMap"async defer></script>
+  <script type='text/javascript' src='http://www.socialbuttonmaker.com/Scripts/FlashButton.js'></script>
+
+ 
+ <script>
+      var map;
+      function initMap() {
+  var myLatLng = {lat: 41.681100, lng: -88.205492};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 17,
+    center: myLatLng
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+  });
+}
+    </script>
+
+</head>
+
+<body>
+<div id="container">
+<header><br><br><br><br><br><br><br>
+  <div id="logo"><img src="pics/sharkologo3.png"></div>
+
+  <div id="social">
+        <object width='69' height='32'>
+            <embed src='http://www.socialbuttonmaker.com/Swfs/1317b4e7-cea1-4f70-9ebe-2ad9a65a1d2d/button.swf' type='application/x-shockwave-flash' width='69' height='32' loop='false' wmode='transparent'>
+            </embed>
+            <img src='' width=0 height=0 id='flashbutton'/>
+        </object>
+    </div>
+
+
+  <nav class="cf">
+    <ul class="topMenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Menus</a>
+          <ul class="subMenu">
+                <li><a href="menu.html" title="menu">Menu</a></li>
+                <li><a href="cater.html" title="catering">Catering Menu</a></li>
+              </ul>
+          </li>
+      <li><a href="contact.html" class="current">Contact Us</a></li>
+      <li><a href="noteable.html">Notable Mentions</a></li>
+    </ul>
+  </div>
+  </nav>
+
+</header>
+
+
+  <br><br><br><br>
+  <div id="contactinfo">
+    <h3>Contact/Location/Hours</h3>
+    <br><br>
+      <span class="title">Hours:</span><br><br>
+         <p>Monday - Thursday | 11am - 8pm<br>
+         Friday - Saturday | 11am -  9 pm<br>
+          Sunday   |  11am -  8 pm</p>
+    <br><br>
+
+  <span class="title">Contacts:</span><br><br>
+    <p> 630-717-7227(7BBQ)<br>
+    brian@sharkosbbq.com</p>
+    <br><br>
+
+
+  <span class="title">Address:</span><br><br>
+    <p>4931 S. RT 59, Unit 127, Naperville, IL  60564</p>
+
+    <img src="pics/sharko.jpg">
+    </div>
+
+    <br><br><br><br><br><br>
+    <div id="map"></div>
+    <br>
+    <div id="mapid">We are located off the corner of Rt. 59 and 111th St.</div>
+
+
+<footer>
+
+Phone: 630-717-7227   | Address: 4931 S. RT 59, Unit 127, Naperville, IL  60564
+
+</footer>
+</body>
+</html>

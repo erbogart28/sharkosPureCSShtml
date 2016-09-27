@@ -1,0 +1,279 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+h1
+{	
+
+	padding-top:10px;
+	font-family:helvetica;
+	margin-left:20%;
+	font-size:38px;
+}
+
+h2
+{
+	margin-left:20%;
+}
+
+h3
+{
+	text-align:center;
+	color:black;
+	font-size:24px;
+	background-color:#cc6666;
+	padding:.2em;
+}
+
+main
+{
+
+	height:auto;
+	padding-left:20%;
+	padding-right:20%;
+	margin-top:13%;
+	line-height:2.5em;
+}
+
+header
+{
+	background-color:#cc6666;
+	height:auto;
+	width:100%;
+
+}
+nav
+{
+	width:80%;
+	height:auto;
+	margin-left:35%;
+	margin-top:-3%;
+	display:inline-block;
+
+}
+
+body
+{
+	background-image: url("http://www.t-zoneskincare.com/wp-content/uploads/2015/10/charcoal-84670_1920.jpg");
+	height:auto;
+	width:100%;
+}
+
+footer
+{
+	text-align:center;
+	background-color:#cc6666;
+	width:100%;
+	height:auto;
+	margin-top:15%;
+	padding:2%;
+	position:absolute;
+	font-size:18px;
+}
+
+p
+{
+	color:white;
+	text-indent:5%;
+	font-size:19px;
+	
+}
+
+ul, li /*button positioning and font/list style*/
+{
+	padding:5px;
+	margin-top:.7%;
+	margin-bottom:0;
+	padding-bottom:0;
+	list-style:none;
+	float:left;
+	font-family:"helvetica neue";
+	position:relative;
+}
+
+
+li a /*button displays look*/
+{
+	display:block;
+	text-decoration:none;
+	line-height:2em;
+	padding:0 1em;
+	color:white;
+	box-shadow:0 0 5px #000;
+}
+
+/*Button Colors*/
+a:link
+{
+	background-color: #bfbfbf
+}
+
+/*hover effects*/
+li a:hover, .topMenu > li:hover > a 
+{
+	color:black;
+	background-color:#666;
+	cursor:default;
+}
+
+/* Menu shows current page user is on **MUST REFIGURE FOR EACH HTML PAGE*/
+.current, .topMenu li:hover a.current 
+{
+	color:#700;
+	background-color:#666;
+	padding-top: .2em;
+    position: relative;
+    top: -.2em;	
+}
+
+/*drop down menu*/
+.subMenu
+{
+	float:none;
+	margin-top:5.9px;
+	margin-left:4.90px;
+	width: 120px;
+    height: auto;
+    background:#666;
+    position: absolute;
+    top: 2em;
+    padding:15px;
+    /*hides dropdown*/left: -9000em; 
+}
+
+/*brings back dropdown*/
+.topMenu li:hover ul  
+{
+    left: 0;
+}
+
+.subMenu li
+{
+	float:none;
+}
+
+/*drop down non hover design*/
+.subMenu li a 
+{
+    border-bottom: 2px solid black;
+    padding: .3em .3em;
+    white-space: nowrap;
+    margin-bottom:10px; 
+    width:7.25em;   
+    margin-left:-7px;
+}
+
+/*drop down hover over design*/
+.subMenu li a:hover 
+{
+    background: #e6e6e6;
+    height: 2em;
+    width:7.25em;
+}
+
+/*header menu*/
+#container
+{
+	margin:0 auto;
+	position:absolute;
+  	top:0;
+  	width:100%;
+  	height:auto;
+}
+
+
+#logo
+{
+	margin-left:20%;
+}
+
+
+#owners
+{ 
+	float:left;
+	margin-top:10%;
+}
+
+#owners
+{
+	float:left;
+	margin-top:10%;
+}
+
+#right
+{
+	width:50%;
+	margin-left:60%;
+	margin-top:13%;
+	font-size:24px;
+}
+
+#social
+{
+	margin-left:70%;
+	margin-top:-90px;
+	padding-bottom:2%;
+}
+
+
+
+/*Red Box and font*/
+#box
+{
+	background-color:#cc6667;
+	opacity:.9;
+	margin-left:50.5%;
+	margin-right:-2%;
+	margin-top:8%;
+	padding:3%;
+	font-size:18px;
+	color:black;
+	width:48%;
+}
+
+#noteworthy
+{
+	margin-top:28%;
+	background-color:#666;
+	opacity:.9;
+}
+
+#principles
+{
+	background-color:#666;
+	opacity:.9;
+}
+
+#history
+{
+	background-color:#666;
+	opacity:.9;
+}
+/*Gallery Display dimensions and placing*/
+.galleria
+{ 
+	width: 600px; 
+	height: 400px; 
+	background: #000;
+	margin-left:20%;
+}
+
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/*For modern browsers. */
+
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/*For IE 6/7 (trigger has layout) */
+.cf {
+    zoom:1;
+}
+
+
